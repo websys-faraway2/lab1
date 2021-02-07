@@ -1,0 +1,29 @@
+var news = {
+    "menuItem": [
+        {
+            "menuName": "Lab 2",
+            "menuDesc": "Resume",
+            "menuURL": "lab2resume"
+        },
+        {
+            "menuName": "Lab 3",
+            "menuDesc": "Website",
+            "menuURL": "..?"
+        },
+        {
+            "menuName": "Lab 100",
+            "menuDesc": "Website",
+            "menuURL": "NooooOOooooOOOOo"
+        },
+        {
+            "menuName": "why?",
+            "menuDesc": "Website",
+            "menuURL": "?????"
+        },
+        {
+            "menuName": ".......?",
+            "menuDesc": "Website",
+            "menuURL": "............"
+        }
+    ]
+}
