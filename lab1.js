@@ -6,7 +6,10 @@ function display(){
 
 function events(){
 		var num = []
-		var len = news.menuItem.length;
+		//Every news saves in item
+		var len = news.rss.channel.item.length;
+
+		//Generates 5 different random numbers
 		while (num.length != 5){
 			var i=Math.floor(Math.random()*len);
 			num.push(i);
@@ -19,15 +22,15 @@ function events(){
 		}
 
 	    out1 = document.getElementById("output1");
-	    out1.innerHTML = news.menuItem[(num[0])].menuName + ', ' + news.menuItem[(num[0])].menuURL;
+	    out1.innerHTML = "<a href=\"" + news.rss.channel.item[(num[0])].link + "\">" + news.rss.channel.item[(num[0])].title + "</a>";
 	    out1 = document.getElementById("output2");
-	    out1.innerHTML = news.menuItem[(num[1])].menuName + ', ' + news.menuItem[(num[1])].menuURL;
+	    out1.innerHTML = "<a href=\"" + news.rss.channel.item[(num[1])].link + "\">" + news.rss.channel.item[(num[1])].title + "</a>";
 	   	out1 = document.getElementById("output3");
-	    out1.innerHTML = news.menuItem[(num[2])].menuName + ', ' + news.menuItem[(num[2])].menuURL;
+	    out1.innerHTML = "<a href=\"" + news.rss.channel.item[(num[2])].link + "\">" + news.rss.channel.item[(num[2])].title + "</a>";
 	    out1 = document.getElementById("output4");
-	    out1.innerHTML = news.menuItem[(num[3])].menuName + ', ' + news.menuItem[(num[3])].menuURL;
+	    out1.innerHTML = "<a href=\"" + news.rss.channel.item[(num[3])].link + "\">" + news.rss.channel.item[(num[3])].title + "</a>";
 	    out1 = document.getElementById("output5");
-	    out1.innerHTML = news.menuItem[(num[4])].menuName + ', ' + news.menuItem[(num[4])].menuURL;
+	    out1.innerHTML = "<a href=\"" + news.rss.channel.item[(num[4])].link + "\">" + news.rss.channel.item[(num[4])].title + "</a>";
 
 }
 
