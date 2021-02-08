@@ -1,24 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Lab 1</title>    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>    
-    <link href="lab.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="news.json"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NEWS TICKER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="lab1.css" rel="stylesheet">
+		<script type="text/javascript" src="news.json"></script>
     <script type="text/javascript" src="lab1.js"></script>
+		
   </head>
-  <body onload="display()">
-
-
-      <div id="output1"></div>
-      <div id="output2"></div>
-      <div id="output3"></div>
-      <div id="output4"></div>
-      <div id="output5"></div>
-
-
-
-
-
+  
+  <body class="text-center" >
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <button id="start" class="button" style="width: auto;" onclick="start()">Grab me some news.</button>
+      <main id="main" role="main" class="inner cover" hidden>
+        <p id="output1" class="lead" style="font-size: small; color: rgb(151, 151, 151);">modal</p>
+        <p id="output2" class="lead" style="font-size: medium; color: rgb(151, 151, 151);">modal</p>
+        <p id="output3" class="lead" style="font-size: large; color: rgb(151, 151, 151);">modal</p>   
+        <p id="output4" class="lead" style="font-size: larger; color: rgb(151, 151, 151);">modal</p>
+        <p id="output5" class="lead" style="font-size: x-large;">modal test</p>
+        <div class="card" style="width: auto; background-color: #333;">
+          <div class="card-body">
+            <h6 id="arthor" class="card-subtitle mb-2 text-muted">Arthor</h6>
+            <h6 id="pubdate" class="card-subtitle mb-2 text-muted">Time</h6>
+            <p id="content" class="card-text" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a id="link" href="#" class="card-link">link to source</a>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
