@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+body {
+  /* background-color: #1DA1F2; */
+  background: url("https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg");
+  padding-top: 20vh;
+  padding-left: 47vh;
+  font-family: "Open Sans";
+}
+
+#info_bar {
+  font-size: 16px;
+  height: 42vh;
+  width: 90vh;
+  background-color: white;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 10vh;
+  padding-top: 4vh;
+  border: 1px solid #AAB8C2;
+}
+
+#tick_name {
+  margin: 0 0 4vh 0;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1DA1F2;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#news_info {
+  width: 84vh;
+  height: 32vh;
+  /* background-color: black; */
+  border: 1px solid #AAB8C2;
+  border-radius: 16px;
+  padding-top: 3vh;
+  padding-right: 4vh;
+  padding-left: 4vh;
+  font-family: News Cycle;
+  font-weight: bold;
+  background: #1DA1F2;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: white;}
+  15%  {background-color: #1DA1F2;}
+  85%  {background-color: #1DA1F2;}
+  100% {background-color: white;}
+}
