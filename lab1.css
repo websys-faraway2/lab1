@@ -2,6 +2,8 @@
  * Globals
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
 /*
  * Base structure
@@ -33,3 +35,23 @@ p:hover{
   color: aquamarine;
 }
 
+
+#news_info {
+  /* background-color: black; */
+  border: 1px solid #AAB8C2;
+
+  font-family: News Cycle;
+  font-weight: bold;
+  background: #fff;
+  color: #333;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(255, 255, 255);}
+  15%  {background-color: #dbfaff;}
+  85%  {background-color: #c8f7ff;}
+  100% {background-color: rgb(149, 238, 250);}
+}
