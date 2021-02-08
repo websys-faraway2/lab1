@@ -2,7 +2,9 @@
 ## Huanzhi ZHU
 
 `COMMIT 1`
+### init codebase, json processing, and display logic done by @Ye Fan
+`COMMIT 2`
 ### rebuild display logic from work done by @Ye Fan 
 ### add bootstrap and sessionstorage
-`COMMIT 2`
+`COMMIT 3`
 ### update CSS done by @Chen Zhihan
