@@ -1,7 +1,7 @@
 
 function display(){
 	events();
-	window.setInterval(events, 3000);
+	window.setInterval(events, 5000);
 }
 
 function events(){
