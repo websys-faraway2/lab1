@@ -16,3 +16,8 @@
 >`COMMIT 3`
 
 >>Update CSS done by ***@Zhihan Chen*** ***@Yuchen Luo*** 
+
+
+>**Creativity:**
+>>Highlight the current news title with yellow, for making the significative information to be more visiable ***@Zhihan Chen***
+
