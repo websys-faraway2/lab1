@@ -35,4 +35,9 @@
 >>In the information bar under the current news title, the web gives the author, public data, and the preview, even a link to the news.
 
 
+>**The development process**
+
+>>Init codebase is a hard work, but once we finish building the codebase, the js and stylesheet is relatively easy to be completed.
+
+
 
