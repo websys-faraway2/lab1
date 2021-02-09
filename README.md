@@ -22,8 +22,8 @@
 >>Highlight the current news title with yellow, for making the significative information to be more visiable ***@Zhihan Chen***
 
 >**Design of the web**
->>On the top of the first four title is the news the web would display in the next, while the title with yellow color below the four title at the top is the current news the web would provide further information.
+>>On the top of the first four titles are the news the web would display in the next, while the title with yellow color below the four title at the top is the current news the web would provide further information.
 
->>In the information bar under the current news title, the web ?displays the author, public data, and the preview, even a link to the news.
+>>In the information bar under the current news title, the web gives the author, public data, and the preview, even a link to the news.
 
 
