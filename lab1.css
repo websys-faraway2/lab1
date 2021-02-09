@@ -28,35 +28,45 @@ div{
   width:auto;
 }
 
-
 #output5 {
   border-style: double double;
+  border-radius: 12px;
+  font-weight: bold;
+  padding: 1em;
+  border-color: white;
+  color: #333;
+  animation-name: word-ani;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes word-ani {
+  0%   {color: #333;}
+  15%  {color: Yellow;}
+  85%  {color: Yellow;}
+  100% {color: #333;}
 }
 
 .cover-container {
   max-width: 42em;
 }
 
-p:hover{
+p.card-text:hover{
   color: aquamarine;
 }
 
-
 #news_info {
-  /* background-color: black; */
-
-
   font-family: News Cycle;
   font-weight: bold;
   color: #3E3E3E;;
-  animation-name: example;
+  animation-name: circle;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   height:auto;
   margin: 0;
 }
 
-@keyframes example {
+@keyframes circle {
   0%   {background-color: #3E3E3E;}
   15%  {background-color: #8B8B8B;}
   80%  {background-color: #BCBCBC;}
@@ -69,10 +79,17 @@ p:hover{
   font-family: 'Merriweather', serif;
 }
 
+#preview {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
 
+/*
+Link
+*/
 
-
-/*Link*/
 a{
   text-decoration: none;
   color:#9A9FAA;
