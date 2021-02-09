@@ -23,6 +23,8 @@
 
 >>Display the news feeds like card and with session stored ***@Huanzhi ZHU***
 
+>>Display the news with Serif Font, making the button more readable ***@Yuchen Luo***
+
 >**Design of the web**
 
 >>On the top of the first four titles are the news the web would display in the next, while the title with yellow color below the four title at the top is the current news the web would provide further information.
