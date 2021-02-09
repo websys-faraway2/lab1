@@ -1,6 +1,6 @@
 # lab1 - Far away team 2
 ## Fan Ye
-Get RSS feed from Los Angeles Times and convert them into json file. Did the first version of javascript(in dump code now). 
+Get RSS feed from Los Angeles Times and convert them into json file. 
 
 ## Huanzhi ZHU
 
