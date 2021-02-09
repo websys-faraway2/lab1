@@ -25,6 +25,8 @@
 
 >>Display the news with Serif Font, making the button more readable ***@Yuchen Luo***
 
+>>Give the combinition of preview, source link and author a background to indicate their relation ***@Fan Ye***
+
 
 >**Design logic of the web**
 
