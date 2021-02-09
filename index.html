@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>NEWS TICKER</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <link href="lab1.css" rel="stylesheet">
 		<script type="text/javascript" src="news.json"></script>
     <script type="text/javascript" src="lab1.js"></script>
@@ -14,7 +17,7 @@
   
   <body class="text-center" >
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <button id="start" type="button" class="btn btn-outline-light" style="width: auto; margin-top: 50%;" onclick="start()">Grab me some news.</button>
+      <button id="start" type="button" class="btn btn-outline-light" style="width: auto; margin-top: 50%; font-family: 'Noto Sans JP', sans-serif;" onclick="start()">Grab me some news.</button>
       <main id="main" role="main" class="inner cover" hidden>
         <p id="output1" class="lead" style="font-size: small; color: rgb(151, 151, 151);">modal</p>
         <p id="output2" class="lead" style="font-size: medium; color: rgb(151, 151, 151);">modal</p>
@@ -27,7 +30,7 @@
             <h6 id="pubdate" class="card-subtitle mb-2 text-muted">Time</h6>
             <div id="news_info">
               <!-- <div id="Animations"> -->
-              <p id="content" class="card-text" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p id="content" class="card-text" style= "font-family: 'Merriweather', serif;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <!-- </div> -->
             </div>
             <a id="link" href="#" class="card-link" style="font-size: 16px;margin:0;">link to source</a>
